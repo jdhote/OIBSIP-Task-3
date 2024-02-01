@@ -1,0 +1,184 @@
+/* .home
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+/* 
+body{
+  /* background-image: url("C:\Users\Janhavi\OneDrive\Desktop\Oasis Infobyte Internship\ToDo\Todo\src\assets\violet-watercolor-texture-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; */
+  /* background-color: aliceblue; */
+/* } */
+ .home {
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.header{
+  width: 345px;
+  margin-left: 33.55rem;
+  background-color: #c6e0b5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-bottom: 2rem;
+  height: 80px;
+}
+.header h2 {
+  text-align: center;
+ 
+}
+
+.create_form
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.create_form input
+{
+  width: 290px;
+  padding: 10px;
+  border: 2px solid #333;
+  outline: none;
+  
+  border-radius: 10px;
+}
+
+.create_form button{
+  padding: 10px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  width: 70px;
+}
+
+.task
+{
+  display: flex;
+  align-items: center;
+  width: 345px;
+  justify-content: space-between;
+  height: 35px;
+  padding: 2px 5px 2px 5px;
+  margin-top: 2px;
+  margin-bottom: 25px;
+   background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* .task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 5px;
+ 
+} */
+.checkbox
+{
+  display: flex;
+  align-items: center;
+}
+
+.checkbox .icon
+{
+  margin-right: 5px;
+  font-size: 15px;
+}
+
+.task div span{
+  margin: 0px 5px 0px 4px;
+}
+
+.task div .icon
+{
+  cursor: pointer;
+}
+
+.line_through
+{
+  text-decoration: line-through;
+} 
+
+.all-tasks h3{
+  margin-right: 16rem;
+}
+
+
+/* .completed-tasks {
+  /* margin-right: 190px; */
+  /* flex: 1; */
+
+
+.outer-most-div
+{ text-align: center;
+  /* margin-top: 150px; */
+  /* background-color:#898787; */
+  /* width: 1300px; */
+  width: 100%;
+  height: 100vh;
+}
+
+
+.show-completed-tasks-btn{
+  padding: 10px 10px; 
+  margin-bottom: 10px;
+  margin-top: 10px;
+  background-color: #c6e0b5;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.show-completed-tasks-btn:hover{
+  opacity: 1;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.completed-tasks h3{
+  margin-right: 12rem;
+}
+
+
+.input-container{
+  
+  display: flex;
+  justify-content: baseline;
+} 
+
+
+.plus-icon {
+  font-size: 25px;
+  margin-left: 10px;
+  margin-top: 7px;
+  transition: font-size 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.plus-icon:hover
+{
+  font-size: 2rem;
+}
